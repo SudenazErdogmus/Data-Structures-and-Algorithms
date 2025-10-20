@@ -55,7 +55,7 @@ public class Islemler {
         sonraki aşamalara boşu boşuna girmesin. Kodumuz efektif olsun. Ayrıca bu blokla bundan sonra iki stack' in boyutlarının birbirlerine
         eşit olduğunu garanti ederiz. Ayrıca bunu kontrol etmemiz gerekmez.
         */
-        if(s1.Size() != s2.Size()){ //ilk başta iki stack' in boyutu eşit değilse direkt false döndürerek programı sonlandırırız ki 
+        if(s1.Size() != s2.Size()){  
             return false; 
         }
         /*Bu değişken özellikle while döngüsünün içindeki if bloğu için çok önemlidir. ilk önce return false olarak yazmıştım kodumu.
