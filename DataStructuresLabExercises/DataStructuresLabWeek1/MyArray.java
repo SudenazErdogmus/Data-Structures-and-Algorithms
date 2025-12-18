@@ -66,7 +66,7 @@ public class MyArray {
                 start = middle + 1;
             }
         }  
-        return number;
+        return -1;
     }
     
 }
