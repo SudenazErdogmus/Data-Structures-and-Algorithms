@@ -11,7 +11,7 @@ public class MyArray {
         }
     }
     
-    public int min(){
+    public int findMin(){
         int minimumNumber = array[0];
         for(int i=1; i<array.length-1; i++){
             if(minimumNumber > array[i]){
