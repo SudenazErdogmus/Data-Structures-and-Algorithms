@@ -54,7 +54,7 @@ public class MyArray {
         int end = array.length-1;
         
         while(start <= end){
-            middle = (0+array.length-1)/2;
+            middle = (start + end) / 2;
             if(number == array[middle]){
                 System.out.println("Tebrikler, tek attiniz <333");
                 return number;
