@@ -24,7 +24,7 @@ public class MyArray {
     public int lineerSearch(int number){
         for(int i=0; i<array.length-1; i++){
             if(number == array[i]){
-                return number;
+                return i; //sayıyı değil indisini döndürmemiz isteniyor 
             }
         }
         return -1;
